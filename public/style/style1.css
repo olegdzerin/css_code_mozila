@@ -1,0 +1,33 @@
+strong {
+    color: red;
+}
+
+#main {
+    border: solid 1px red;
+}
+
+.my {
+    border: solid 3px black;
+}
+
+#data-table-1 td:first-child {
+    text-decoration: underline;
+}
+
+#data-table-1 td:first-child+td {
+    text-decoration: line-through;
+}
+
+p {
+    font: italic 124%/10% "Comic Sans MS", cursive;
+}
+
+.ref::before {
+    font-weight: bold;
+    color: navy;
+    content: "Reference ";
+}
+
+a.glossary::after {
+    content: " "url("https://mdn.mozillademos.org/files/16322/glossary-icon.gif");
+}
